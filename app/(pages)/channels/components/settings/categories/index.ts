@@ -1,0 +1,8 @@
+export { AccountSettings } from './account-settings'
+export { NotificationSettings } from './notification-settings'
+export { PrivacySettings } from './privacy-settings'
+export { VoiceSettings } from './voice-settings'
+export { ProfileSettings } from './profile-settings'
+export { VideoSettings } from './video-settings'
+export { SettingsSidebar } from './sidebar'
+export { SearchSettings } from './search'

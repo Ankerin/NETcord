@@ -1,0 +1,42 @@
+.custom-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  z-index: 1000; /* чтобы панель управления была поверх контента */
+}
+
+.window-controls {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.control-btn {
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  margin: 0 5px;
+}
+
+.minimize-btn::before {
+  content: '_';
+}
+
+.maximize-btn::before {
+  content: '[]';
+}
+
+.close-btn::before {
+  content: 'X';
+}
+
+.control-btn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
