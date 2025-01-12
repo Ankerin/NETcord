@@ -1,5 +1,3 @@
-<meta property="og:image" content="https://github.com/Ankerin/NETcord/docs/netcordix.png">
-
 [![NETcordix](https://img.shields.io/badge/NΞTcordix-Перейти-black)](https://github.com/Ankerin/NETcord/docs/README-netcordix.md)
 [![NETcordixTG](https://img.shields.io/badge/NΞTcordix(Telegram)-Перейти-blue)](https://t.me/netcordix)
 
